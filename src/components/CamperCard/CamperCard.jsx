@@ -1,7 +1,6 @@
 
 import { useDispatch, useSelector } from "react-redux";
 import clsx from "clsx";
-
 import { Button } from "../Button/Button.jsx";
 import Equipping from "../Equipping/Equipping.jsx";
 import sprite from "../../assets/icons/sprite.svg";
