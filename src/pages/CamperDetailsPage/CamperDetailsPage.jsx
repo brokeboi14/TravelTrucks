@@ -6,6 +6,7 @@ import { fetchCamperById } from "../../store/operations.js";
 import { selectCampers } from "../../store/selectors.js";
 import FeaturesReviewsNav from "../../components/FeaturesReviewsNav/FeaturesReviewsNav.jsx";
 import css from "./CamperDetailsPage.module.css";
+import sprite from '../../assets/icons/sprite.svg'
 
 const CamperDetailsPage = () => {
   const dispatch = useDispatch();
@@ -41,7 +42,7 @@ const CamperDetailsPage = () => {
             <div className={css.ratingContainer}>
             <p className={css.ratingText}>
               <svg width={16} height={16}>
-                <use href="/src/assets/icons/sprite.svg#star-yellow"></use>
+                <use href={`${sprite}#star-yellow`}></use>
               </svg>
               <span className={css.spanRating}>
                 {camper.rating}({test} Reviews)
@@ -49,7 +50,7 @@ const CamperDetailsPage = () => {
             </p>
             <p className={css.ratingText}>
               <svg width={16} height={16}>
-                <use href="/src/assets/icons/sprite.svg#Map"></use>
+                <use href={`${sprite}#map`}></use>
               </svg>
               {formatLocation(location)}
             </p>
