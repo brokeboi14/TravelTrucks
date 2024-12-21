@@ -63,7 +63,7 @@ const CamperCard = ({ item }) => {
           </div>
           <p className={css.textDescription}>{item.description}</p>
           <Equipping item={item} />
-          <Button to={`/catalog/${item.id}/features`} target={"_blank"}>
+          <Button to={`/catalog/${item.id}/features`}>
             Show more
           </Button>
         </div>
