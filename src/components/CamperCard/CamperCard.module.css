@@ -1,0 +1,63 @@
+.box {
+    display: flex;
+    gap: 24px;
+    border: 1px solid #dadde1;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: #fff;
+  }
+  
+  .img {
+    width: 292px;
+    border-radius: 10px;
+  }
+  
+  .boxTitle {
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1399;
+    color: #101828;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .boxPrice {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .boxRatingLocation {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .textRatingLocation {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #101828;
+  }
+  
+  .spanRatingLocation {
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+  }
+  
+  .textDescription {
+    white-space: nowrap;
+    width: 525px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 24px;
+  }
+  
+  .like {
+    fill: #e44848;
+  }
+  

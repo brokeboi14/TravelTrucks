@@ -1,0 +1,37 @@
+.homeContainer {
+    width: 1440px;
+    height: 696px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("/src/assets/img/background@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  
+  @media (min-resolution: 192dpi) {
+    .homeContainer {
+      background-image: url("/src/assets/img/background@2x.png");
+    }
+  }
+  
+  .titleContainer {
+    padding-top: 260px;
+    padding-bottom: 260px;
+  }
+  
+  .homeTitle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.66667;
+    color: #f7f7f7;
+    margin-bottom: 16px;
+  }
+  
+  .homeSubtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #f7f7f7;
+    margin-bottom: 40px;
+  }
+  
